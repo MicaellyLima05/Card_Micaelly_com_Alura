@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&family=Varela+Round&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 20% 32%;
+    padding: 1% 1%;
+    background-image: url(assets/fundo_stitch.png);
+    border: 5px solid #051440;
+}
+
+.imagem_pessoal {
+    border-radius: 50%;
+    border: 10px solid #000000;
+    
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto__titulo {
+    font-family: "Titan One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    animation: piscar 5s infinite;
+}
+
+@keyframes piscar {
+    0% { color: #000000;}
+    10% { color: #4271ff;}
+    20% { color: #4271ff;}
+    30% { color: #4271ff;}
+    40% { color: #000000;}
+    50% { color: #000000;}
+    60% { color: #000000;}
+    70% { color: #4271ff;}
+    80% { color: #4271ff;}
+    90% { color: #4271ff;}
+    100% { color: #000000;}
+}
+    
+.texto__paragrafos {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.fundo_stitch {
+    opacity: 0.5;
+}
